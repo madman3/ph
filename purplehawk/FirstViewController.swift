@@ -9,7 +9,11 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
+    
+    @IBOutlet weak var phlogo: UIImageView!
+    @IBOutlet weak var bgph: UIImageView!
+    @IBOutlet weak var signupbtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +24,11 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func gotosmbtn(sender: AnyObject) {
+        phlogo.hidden = false
+        bgph.hidden = false
+        signupbtn.hidden = true
+    }
 
 }
 
