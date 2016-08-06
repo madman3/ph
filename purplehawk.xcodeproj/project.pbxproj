@@ -15,6 +15,7 @@
 		6D8245AD1D528D270081D44C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8245AB1D528D270081D44C /* LaunchScreen.storyboard */; };
 		6D8245B81D528D270081D44C /* purplehawkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8245B71D528D270081D44C /* purplehawkTests.swift */; };
 		6D8245C31D528D270081D44C /* purplehawkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8245C21D528D270081D44C /* purplehawkUITests.swift */; };
+		6D8245D11D5628E40081D44C /* Bariol_Regular&Italic in Resources */ = {isa = PBXBuildFile; fileRef = 6D8245D01D5628E40081D44C /* Bariol_Regular&Italic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6D8245BE1D528D270081D44C /* purplehawkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = purplehawkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8245C21D528D270081D44C /* purplehawkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purplehawkUITests.swift; sourceTree = "<group>"; };
 		6D8245C41D528D270081D44C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D8245D01D5628E40081D44C /* Bariol_Regular&Italic */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Bariol_Regular&Italic"; path = "../../../Downloads/Bariol_Regular&Italic"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				6D8245A61D528D270081D44C /* Main.storyboard */,
 				6D8245A91D528D270081D44C /* Assets.xcassets */,
 				6D8245AB1D528D270081D44C /* LaunchScreen.storyboard */,
+				6D8245D01D5628E40081D44C /* Bariol_Regular&Italic */,
 				6D8245AE1D528D270081D44C /* Info.plist */,
 			);
 			path = purplehawk;
@@ -235,6 +238,7 @@
 				6D8245AD1D528D270081D44C /* LaunchScreen.storyboard in Resources */,
 				6D8245AA1D528D270081D44C /* Assets.xcassets in Resources */,
 				6D8245A81D528D270081D44C /* Main.storyboard in Resources */,
+				6D8245D11D5628E40081D44C /* Bariol_Regular&Italic in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
