@@ -138,9 +138,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqN-JQ-TnY">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqN-JQ-TnY">
                                 <frame key="frameInset" minX="48" minY="560" width="278" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="signup.png"/>
                                 <connections>
                                     <segue destination="Evi-Dc-deY" kind="show" id="OeP-ek-7pi"/>
@@ -148,6 +147,11 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qqN-JQ-TnY" firstAttribute="centerX" secondItem="BU7-Ag-egB" secondAttribute="centerX" id="8gr-Y0-iqu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qqN-JQ-TnY" secondAttribute="trailing" constant="33" id="Ut1-fP-SNt"/>
+                            <constraint firstItem="qqN-JQ-TnY" firstAttribute="leading" secondItem="BU7-Ag-egB" secondAttribute="leadingMargin" constant="32" id="z6n-qo-MO1"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="27u-Q2-SA4"/>
                 </viewController>
@@ -167,28 +171,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBn-2z-lnU">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBn-2z-lnU">
                                 <frame key="frameInset" minX="21" minY="157" width="389" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="yelp_button.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3N-8P-dNS">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3N-8P-dNS">
                                 <frame key="frameInset" minX="21" minY="277" width="389" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="foursquare_button.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvA-R8-rjd">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvA-R8-rjd">
                                 <frame key="frameInset" minX="21" minY="391" width="389" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="facebook_button.png"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cJ-z2-G1z">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cJ-z2-G1z">
                                 <frame key="frameInset" minX="21" minY="499" width="389" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="email_button.png"/>
+                                <connections>
+                                    <segue destination="joF-cD-Kid" kind="show" id="Gjn-Kc-d2K"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="xvA-R8-rjd" secondAttribute="trailing" constant="-51" id="1zl-0P-b18"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="m3N-8P-dNS" secondAttribute="trailing" constant="-51" id="6ca-tE-DuN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1cJ-z2-G1z" secondAttribute="trailing" constant="-51" id="7Zx-8g-zJW"/>
+                            <constraint firstItem="TBn-2z-lnU" firstAttribute="leading" secondItem="ILf-RS-pLF" secondAttribute="leadingMargin" constant="5" id="9wS-lh-iEa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TBn-2z-lnU" secondAttribute="trailing" constant="-51" id="A0i-2j-ai7"/>
+                            <constraint firstItem="m3N-8P-dNS" firstAttribute="centerX" secondItem="ILf-RS-pLF" secondAttribute="centerX" id="DBm-lM-6AO"/>
+                            <constraint firstItem="1cJ-z2-G1z" firstAttribute="centerX" secondItem="ILf-RS-pLF" secondAttribute="centerX" id="Ow9-O4-cxO"/>
+                            <constraint firstItem="m3N-8P-dNS" firstAttribute="leading" secondItem="ILf-RS-pLF" secondAttribute="leadingMargin" constant="5" id="f5h-Hn-PHL"/>
+                            <constraint firstItem="TBn-2z-lnU" firstAttribute="centerX" secondItem="ILf-RS-pLF" secondAttribute="centerX" id="fd3-Gy-GDV"/>
+                            <constraint firstItem="xvA-R8-rjd" firstAttribute="leading" secondItem="ILf-RS-pLF" secondAttribute="leadingMargin" constant="5" id="qDq-1G-2lC"/>
+                            <constraint firstItem="1cJ-z2-G1z" firstAttribute="leading" secondItem="ILf-RS-pLF" secondAttribute="leadingMargin" constant="5" id="xAl-tN-h9F"/>
+                            <constraint firstItem="xvA-R8-rjd" firstAttribute="centerX" secondItem="ILf-RS-pLF" secondAttribute="centerX" id="zAd-fu-vZv"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QjC-os-W9O"/>
                 </viewController>
@@ -207,12 +224,41 @@
                     <view key="view" contentMode="scaleToFill" id="J0x-rD-Y1a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zBJ-qk-bwa">
+                                <frame key="frameInset" minX="51" minY="257" width="251" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="THA-pw-Lmo">
+                                <frame key="frameInset" minX="51" minY="339" width="251" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZVA-rk-YkN">
+                                <frame key="frameInset" minX="35" minY="444" width="304" height="51"/>
+                                <state key="normal" title="Button" image="signup.png"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="THA-pw-Lmo" firstAttribute="centerX" secondItem="J0x-rD-Y1a" secondAttribute="centerX" id="9bS-cL-Mss"/>
+                            <constraint firstItem="THA-pw-Lmo" firstAttribute="leading" secondItem="J0x-rD-Y1a" secondAttribute="leadingMargin" constant="35" id="ASf-yr-Xwi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zBJ-qk-bwa" secondAttribute="trailing" constant="57" id="Bog-Ww-VHi"/>
+                            <constraint firstItem="ZVA-rk-YkN" firstAttribute="leading" secondItem="J0x-rD-Y1a" secondAttribute="leadingMargin" constant="19" id="KRX-9j-Udh"/>
+                            <constraint firstItem="zBJ-qk-bwa" firstAttribute="centerX" secondItem="J0x-rD-Y1a" secondAttribute="centerX" id="SbA-3d-d0p"/>
+                            <constraint firstItem="zBJ-qk-bwa" firstAttribute="leading" secondItem="J0x-rD-Y1a" secondAttribute="leadingMargin" constant="35" id="XA6-It-Hz3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="THA-pw-Lmo" secondAttribute="trailing" constant="57" id="bZw-6B-Jny"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZVA-rk-YkN" secondAttribute="trailing" constant="20" id="lBe-W0-4e8"/>
+                            <constraint firstItem="ZVA-rk-YkN" firstAttribute="centerX" secondItem="J0x-rD-Y1a" secondAttribute="centerX" id="pIQ-To-in4"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2e9-wR-6YV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1018" y="707"/>
+            <point key="canvasLocation" x="-178.40000000000001" y="1528.785607196402"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
