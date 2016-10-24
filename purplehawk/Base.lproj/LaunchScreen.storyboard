@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,44 +16,32 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="BG_ph" translatesAutoresizingMaskIntoConstraints="NO" id="udq-u6-Ppe">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <frame key="frameInset" width="375" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="purplehawk_text" translatesAutoresizingMaskIntoConstraints="NO" id="LRs-jF-xgF">
-                                <rect key="frame" x="40" y="312" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="purplehawk_text" translatesAutoresizingMaskIntoConstraints="NO" id="LRs-jF-xgF">
+                                <frame key="frameInset" minX="67" minY="386" width="240" height="128"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O5X-Je-ZXy">
-                                <rect key="frame" x="134" y="443" width="52" height="30"/>
-                                <state key="normal" title="Sign up">
-                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                                </state>
-                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="LRs-jF-xgF" secondAttribute="trailing" constant="20" id="906-P3-dhJ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="O5X-Je-ZXy" secondAttribute="trailing" constant="114" id="CY9-pI-iaY"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="udq-u6-Ppe" secondAttribute="bottom" id="JJy-5t-VBs"/>
                             <constraint firstItem="udq-u6-Ppe" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="LA1-Jd-xrc"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="udq-u6-Ppe" secondAttribute="trailing" constant="-20" id="P77-si-a3c"/>
-                            <constraint firstItem="O5X-Je-ZXy" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="114" id="Wi6-C1-BRm"/>
-                            <constraint firstItem="LRs-jF-xgF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hDh-Mf-f6Q"/>
+                            <constraint firstItem="udq-u6-Ppe" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="TEG-J1-22j"/>
                             <constraint firstItem="LRs-jF-xgF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="20" id="iqo-wF-t2x"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="udq-u6-Ppe" secondAttribute="bottom" id="jk7-EK-RjP"/>
-                            <constraint firstItem="O5X-Je-ZXy" firstAttribute="top" secondItem="LRs-jF-xgF" secondAttribute="bottom" constant="3" id="mWR-KO-VEl"/>
-                            <constraint firstItem="O5X-Je-ZXy" firstAttribute="top" secondItem="LRs-jF-xgF" secondAttribute="bottom" constant="3" id="ndg-06-IRg"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="O5X-Je-ZXy" secondAttribute="bottom" constant="95" id="r4I-RW-8IB"/>
                             <constraint firstItem="LRs-jF-xgF" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="292" id="tfx-ZK-J0k"/>
                             <constraint firstItem="udq-u6-Ppe" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="zf7-Ou-NZU"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
     <resources>

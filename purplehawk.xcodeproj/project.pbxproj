@@ -15,7 +15,8 @@
 		6D8245AD1D528D270081D44C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8245AB1D528D270081D44C /* LaunchScreen.storyboard */; };
 		6D8245B81D528D270081D44C /* purplehawkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8245B71D528D270081D44C /* purplehawkTests.swift */; };
 		6D8245C31D528D270081D44C /* purplehawkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8245C21D528D270081D44C /* purplehawkUITests.swift */; };
-		6D8245D11D5628E40081D44C /* Bariol_Regular&Italic in Resources */ = {isa = PBXBuildFile; fileRef = 6D8245D01D5628E40081D44C /* Bariol_Regular&Italic */; };
+		7F6A84E81DBAB02C003E7A82 /* Bariol_Regular_Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F6A84E71DBAB02C003E7A82 /* Bariol_Regular_Italic.otf */; };
+		7F6A84EA1DBE8527003E7A82 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F6A84E91DBE8527003E7A82 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,8 @@
 		6D8245BE1D528D270081D44C /* purplehawkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = purplehawkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8245C21D528D270081D44C /* purplehawkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purplehawkUITests.swift; sourceTree = "<group>"; };
 		6D8245C41D528D270081D44C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D8245D01D5628E40081D44C /* Bariol_Regular&Italic */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Bariol_Regular&Italic"; path = "../../../Downloads/Bariol_Regular&Italic"; sourceTree = "<group>"; };
+		7F6A84E71DBAB02C003E7A82 /* Bariol_Regular_Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bariol_Regular_Italic.otf; path = "../../../Downloads/Bariol_Regular_Italic/01 Bariol_Regular_Desktop/Bariol_Regular_Italic.otf"; sourceTree = "<group>"; };
+		7F6A84E91DBE8527003E7A82 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +103,14 @@
 		6D82459F1D528D270081D44C /* purplehawk */ = {
 			isa = PBXGroup;
 			children = (
+				7F6A84E91DBE8527003E7A82 /* GoogleService-Info.plist */,
 				6D8245A01D528D270081D44C /* AppDelegate.swift */,
 				6D8245A21D528D270081D44C /* FirstViewController.swift */,
 				6D8245A41D528D270081D44C /* SecondViewController.swift */,
 				6D8245A61D528D270081D44C /* Main.storyboard */,
 				6D8245A91D528D270081D44C /* Assets.xcassets */,
 				6D8245AB1D528D270081D44C /* LaunchScreen.storyboard */,
-				6D8245D01D5628E40081D44C /* Bariol_Regular&Italic */,
+				7F6A84E71DBAB02C003E7A82 /* Bariol_Regular_Italic.otf */,
 				6D8245AE1D528D270081D44C /* Info.plist */,
 			);
 			path = purplehawk;
@@ -194,18 +197,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Purplehawk;
 				TargetAttributes = {
 					6D82459C1D528D270081D44C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					6D8245B21D528D270081D44C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 6D82459C1D528D270081D44C;
 					};
 					6D8245BD1D528D270081D44C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 6D82459C1D528D270081D44C;
 					};
 				};
@@ -236,9 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D8245AD1D528D270081D44C /* LaunchScreen.storyboard in Resources */,
+				7F6A84E81DBAB02C003E7A82 /* Bariol_Regular_Italic.otf in Resources */,
+				7F6A84EA1DBE8527003E7A82 /* GoogleService-Info.plist in Resources */,
 				6D8245AA1D528D270081D44C /* Assets.xcassets in Resources */,
 				6D8245A81D528D270081D44C /* Main.storyboard in Resources */,
-				6D8245D11D5628E40081D44C /* Bariol_Regular&Italic in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,8 +341,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -379,8 +388,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -399,6 +410,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -411,6 +423,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.purplehawk.purplehawk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -422,6 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.purplehawk.purplehawk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -433,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.purplehawk.purplehawkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/purplehawk.app/purplehawk";
 			};
 			name = Debug;
@@ -445,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.purplehawk.purplehawkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/purplehawk.app/purplehawk";
 			};
 			name = Release;
@@ -456,6 +472,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.purplehawk.purplehawkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = purplehawk;
 			};
 			name = Debug;
@@ -467,6 +484,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.purplehawk.purplehawkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = purplehawk;
 			};
 			name = Release;
@@ -490,6 +508,7 @@
 				6D8245C91D528D270081D44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D8245CA1D528D270081D44C /* Build configuration list for PBXNativeTarget "purplehawkTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +517,7 @@
 				6D8245CC1D528D270081D44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D8245CD1D528D270081D44C /* Build configuration list for PBXNativeTarget "purplehawkUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +526,7 @@
 				6D8245CF1D528D270081D44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
