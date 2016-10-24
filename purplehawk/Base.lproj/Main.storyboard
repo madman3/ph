@@ -110,6 +110,110 @@
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zeQ-As-HvM">
+            <objects>
+                <navigationController id="7Fk-ES-6fY" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="uym-xU-qZZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Cdd-7Q-hY5" kind="relationship" relationship="rootViewController" id="JVc-kz-GFA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TfB-mN-oeD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2108" y="175"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hrQ-4A-Oh7">
+            <objects>
+                <viewController id="Cdd-7Q-hY5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bay-xB-FRZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="CKS-bn-RiP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BU7-Ag-egB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqN-JQ-TnY">
+                                <frame key="frameInset" minX="48" minY="560" width="278" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="signup.png"/>
+                                <connections>
+                                    <segue destination="Evi-Dc-deY" kind="show" id="OeP-ek-7pi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="27u-Q2-SA4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ehx-Xu-agh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2108" y="981.85907046476768"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JTb-pw-fuj">
+            <objects>
+                <viewController id="Evi-Dc-deY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Seb-Uv-Sru"/>
+                        <viewControllerLayoutGuide type="bottom" id="vjD-qk-dZ8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ILf-RS-pLF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBn-2z-lnU">
+                                <frame key="frameInset" minX="21" minY="157" width="389" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="yelp_button.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3N-8P-dNS">
+                                <frame key="frameInset" minX="21" minY="277" width="389" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="foursquare_button.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvA-R8-rjd">
+                                <frame key="frameInset" minX="21" minY="391" width="389" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="facebook_button.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cJ-z2-G1z">
+                                <frame key="frameInset" minX="21" minY="499" width="389" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="email_button.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QjC-os-W9O"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9KT-ut-SOV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1018" y="1529"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mUf-a3-OYF">
+            <objects>
+                <viewController id="joF-cD-Kid" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MwS-qo-JKN"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y9z-Ro-aUK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J0x-rD-Y1a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2e9-wR-6YV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1018" y="707"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -132,7 +236,12 @@
     </scenes>
     <resources>
         <image name="JoLee" width="640" height="427"/>
+        <image name="email_button.png" width="335" height="50"/>
+        <image name="facebook_button.png" width="335" height="50"/>
         <image name="first" width="30" height="30"/>
+        <image name="foursquare_button.png" width="335" height="50"/>
         <image name="second" width="30" height="30"/>
+        <image name="signup.png" width="678" height="112"/>
+        <image name="yelp_button.png" width="335" height="50"/>
     </resources>
 </document>
