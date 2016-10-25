@@ -32,6 +32,9 @@
 		7FBA28661DBE97CB008E5BFE /* yelp_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FBA285A1DBE97CB008E5BFE /* yelp_button@2x.png */; };
 		7FBA28671DBE97CB008E5BFE /* yelp_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FBA285B1DBE97CB008E5BFE /* yelp_button@3x.png */; };
 		7FBA28691DBE9848008E5BFE /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FBA28681DBE9848008E5BFE /* signup.png */; };
+		7FBA28731DBF907A008E5BFE /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA28721DBF907A008E5BFE /* SignupViewController.swift */; };
+		7FBA28751DBF90B7008E5BFE /* SignupBtnsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA28741DBF90B7008E5BFE /* SignupBtnsViewController.swift */; };
+		7FBA28771DBF90D5008E5BFE /* EmailSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA28761DBF90D5008E5BFE /* EmailSignupViewController.swift */; };
 		8BE5A133A78F397BB7657B30 /* Pods_purplehawk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3562E0805445269AEC006E78 /* Pods_purplehawk.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +89,9 @@
 		7FBA285A1DBE97CB008E5BFE /* yelp_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yelp_button@2x.png"; sourceTree = "<group>"; };
 		7FBA285B1DBE97CB008E5BFE /* yelp_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yelp_button@3x.png"; sourceTree = "<group>"; };
 		7FBA28681DBE9848008E5BFE /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup.png; sourceTree = "<group>"; };
+		7FBA28721DBF907A008E5BFE /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		7FBA28741DBF90B7008E5BFE /* SignupBtnsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupBtnsViewController.swift; sourceTree = "<group>"; };
+		7FBA28761DBF90D5008E5BFE /* EmailSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailSignupViewController.swift; sourceTree = "<group>"; };
 		83DCA2BB60CD5FC12FE52361 /* Pods-purplehawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-purplehawkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-purplehawkTests/Pods-purplehawkTests.release.xcconfig"; sourceTree = "<group>"; };
 		90ACEAD730C6FD0B71A6336A /* Pods-purplehawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-purplehawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-purplehawk/Pods-purplehawk.debug.xcconfig"; sourceTree = "<group>"; };
 		A03168CA6CC35F6F69DAF80F /* Pods_purplehawkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_purplehawkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,13 +165,12 @@
 		6D82459F1D528D270081D44C /* purplehawk */ = {
 			isa = PBXGroup;
 			children = (
+				7FBA286B1DBEA27F008E5BFE /* Views */,
+				7FBA286A1DBEA275008E5BFE /* Controllers */,
 				7F6A84E91DBE8527003E7A82 /* GoogleService-Info.plist */,
 				6D8245A01D528D270081D44C /* AppDelegate.swift */,
-				6D8245A21D528D270081D44C /* FirstViewController.swift */,
-				6D8245A41D528D270081D44C /* SecondViewController.swift */,
-				6D8245A61D528D270081D44C /* Main.storyboard */,
 				6D8245A91D528D270081D44C /* Assets.xcassets */,
-				7FBA284F1DBE979A008E5BFE /* Signup */,
+				7FBA284F1DBE979A008E5BFE /* Signup Images */,
 				6D8245AB1D528D270081D44C /* LaunchScreen.storyboard */,
 				7F6A84E71DBAB02C003E7A82 /* Bariol_Regular_Italic.otf */,
 				6D8245AE1D528D270081D44C /* Info.plist */,
@@ -201,7 +206,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7FBA284F1DBE979A008E5BFE /* Signup */ = {
+		7FBA284F1DBE979A008E5BFE /* Signup Images */ = {
 			isa = PBXGroup;
 			children = (
 				7FBA28681DBE9848008E5BFE /* signup.png */,
@@ -218,7 +223,27 @@
 				7FBA285A1DBE97CB008E5BFE /* yelp_button@2x.png */,
 				7FBA285B1DBE97CB008E5BFE /* yelp_button@3x.png */,
 			);
-			name = Signup;
+			name = "Signup Images";
+			sourceTree = "<group>";
+		};
+		7FBA286A1DBEA275008E5BFE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FBA28741DBF90B7008E5BFE /* SignupBtnsViewController.swift */,
+				7FBA28761DBF90D5008E5BFE /* EmailSignupViewController.swift */,
+				7FBA28721DBF907A008E5BFE /* SignupViewController.swift */,
+				6D8245A21D528D270081D44C /* FirstViewController.swift */,
+				6D8245A41D528D270081D44C /* SecondViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7FBA286B1DBEA27F008E5BFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D8245A61D528D270081D44C /* Main.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,6 +528,9 @@
 			files = (
 				6D8245A51D528D270081D44C /* SecondViewController.swift in Sources */,
 				6D8245A11D528D270081D44C /* AppDelegate.swift in Sources */,
+				7FBA28731DBF907A008E5BFE /* SignupViewController.swift in Sources */,
+				7FBA28771DBF90D5008E5BFE /* EmailSignupViewController.swift in Sources */,
+				7FBA28751DBF90B7008E5BFE /* SignupBtnsViewController.swift in Sources */,
 				6D8245A31D528D270081D44C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
