@@ -1,0 +1,6 @@
+framework module Pods_purplehawkUITests {
+  umbrella header "Pods-purplehawkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

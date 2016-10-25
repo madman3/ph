@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07AB40453B087C43D25469043D59AA83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5F712CE56C37FB9D24C16C56B215D996 /* Pods-purplehawkTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C48E7B2CC77B98D009261B290F05DDC0 /* Pods-purplehawkTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		718736E1E229475D894B068137733E70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		79DD31295156A6FC02CE603033397D9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A673FE8C0B00215CA751A07CCD9E7199 /* Pods-purplehawkTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD93E8657B092FB0D3225A1E812B6DA /* Pods-purplehawkTests-dummy.m */; };
+		B8069CDF2A8D88A3C6D54ED8C821B76C /* Pods-purplehawkUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A432D7C72DA3D69A102DF060A23150B8 /* Pods-purplehawkUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC3614F527427B4533897D86116DCA7 /* Pods-purplehawkUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3414F03E196BE9A4DE54E5FEF16D19 /* Pods-purplehawkUITests-dummy.m */; };
+		F1DFF5300E3F3118E13B20664324A56A /* Pods-purplehawk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A1253E18213FAFA90B19A7665A8B41 /* Pods-purplehawk-dummy.m */; };
+		FAAAC01927BE102A95FE2312FE3796FF /* Pods-purplehawk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5137520E902B15A4CA4A9EADFD13DE /* Pods-purplehawk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012DF189A3EA9995E407034BB81134DE /* Pods_purplehawk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_purplehawk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A1253E18213FAFA90B19A7665A8B41 /* Pods-purplehawk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-purplehawk-dummy.m"; sourceTree = "<group>"; };
+		12B8C6D35E7FEC85DC2B0B1639DCC473 /* Pods-purplehawk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-purplehawk.release.xcconfig"; sourceTree = "<group>"; };
+		20898CDC44C403CC76D29128B53688D4 /* Pods-purplehawk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-purplehawk-acknowledgements.plist"; sourceTree = "<group>"; };
+		25262EAC5B98A68F611A2F989C092C09 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		29692F3A8A726414D609560EE464CCA9 /* Pods-purplehawkTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-purplehawkTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BD7AE5BF98E2BB8F14CEFDB22B0B76F /* Pods-purplehawk-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-purplehawk-resources.sh"; sourceTree = "<group>"; };
+		308A03B36F04F5920161294C1158155C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C466CC1000F146F747911B2CAE06D4 /* Pods-purplehawk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-purplehawk.modulemap"; sourceTree = "<group>"; };
+		3FF5B1267D2FED0BF4075A9CC3FA93AE /* Pods-purplehawkTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-purplehawkTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4067D81B2120051F3018878F243E427C /* Pods-purplehawkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-purplehawkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42DAAF56D73CD79D6C445AC20A87447C /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		4C19C8A9C6849B4F20B6F49DC92C6807 /* Pods_purplehawkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_purplehawkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E12BC8DA0491F509F72D9201E7DF14 /* Pods-purplehawkUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-purplehawkUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		57FFB7A2A426F9CF1C35480695F85ED6 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		66121181C0ED7AB306331BFC13E543F3 /* Pods-purplehawkUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-purplehawkUITests-resources.sh"; sourceTree = "<group>"; };
+		66F32E8EF677730C13EF9163A760C7C9 /* Pods-purplehawkUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-purplehawkUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6899EFEC3BC81DE6DB5AC18B82C4C340 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C79C078F18DF162DB7331CCB32EE259 /* Pods-purplehawk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-purplehawk-acknowledgements.markdown"; sourceTree = "<group>"; };
+		922180CB8EB7B589A4A398A38665C416 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		9320616AE8249451F4724C654F06B436 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99B278F526324A2D7C60773D0A41C456 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		9AD93E8657B092FB0D3225A1E812B6DA /* Pods-purplehawkTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-purplehawkTests-dummy.m"; sourceTree = "<group>"; };
+		9E5137520E902B15A4CA4A9EADFD13DE /* Pods-purplehawk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-purplehawk-umbrella.h"; sourceTree = "<group>"; };
+		A0EE8500180497B7439F5EACFA3335AB /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		A432D7C72DA3D69A102DF060A23150B8 /* Pods-purplehawkUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-purplehawkUITests-umbrella.h"; sourceTree = "<group>"; };
+		AB5DEBAEA445D5D0514C030F858A6213 /* Pods-purplehawkTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-purplehawkTests-frameworks.sh"; sourceTree = "<group>"; };
+		AC761D3ED2763045FB9F611A492A8096 /* Pods-purplehawkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-purplehawkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFD8FB0A37617CAAA7F3BC5C85CC6DDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B2055B47DCC9F271F50A27968E4428 /* Pods-purplehawkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-purplehawkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBAD61295CBD419A1A16AE580D165ED1 /* Pods-purplehawkTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-purplehawkTests.modulemap"; sourceTree = "<group>"; };
+		C48E7B2CC77B98D009261B290F05DDC0 /* Pods-purplehawkTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-purplehawkTests-umbrella.h"; sourceTree = "<group>"; };
+		C65AC6867206D8D670F543D02212E86F /* Pods-purplehawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-purplehawk.debug.xcconfig"; sourceTree = "<group>"; };
+		C9A5AD29D49B56D7EE0D5C8560718884 /* Pods_purplehawkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_purplehawkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC04A6457F65586ED77E3ADF5E7B666F /* Pods-purplehawkTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-purplehawkTests-resources.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0AE34A592DABD55C529F7FC2C86B5FB /* Pods-purplehawkUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-purplehawkUITests.modulemap"; sourceTree = "<group>"; };
+		D53BB78B9FABACE2173BC6E6700A9214 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		D6D99B43F67DA82E2840606C9D7522BF /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		E4A28016BFA5E91C49A9C11B48B5159E /* Pods-purplehawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-purplehawkTests.release.xcconfig"; sourceTree = "<group>"; };
+		E971A157091A82AF31CD436DEA39CE67 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		F0BCA6D84EA2CE7BEB79D46A8C29B1CD /* Pods-purplehawk-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-purplehawk-frameworks.sh"; sourceTree = "<group>"; };
+		F5629AD1E54D4923DCDF124E27BCD22D /* Pods-purplehawkUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-purplehawkUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FD3414F03E196BE9A4DE54E5FEF16D19 /* Pods-purplehawkUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-purplehawkUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07678E2D7F2C6082E4DCE947A3595393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718736E1E229475D894B068137733E70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2342BB232C7639DC6C5BE5BCE2194CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AB40453B087C43D25469043D59AA83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1CE0A10BBD73C2D49C14DC1EDF7022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DD31295156A6FC02CE603033397D9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02570568BB819F8BDD292616D8B641FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD6D7BBCD0CA44AC1A13ACE409753DCB /* Firebase */,
+				574A5F261AC927557B2884F3B7310776 /* FirebaseAnalytics */,
+				0B5C8CD5EAA015A554428079D37E5055 /* FirebaseAuth */,
+				D4EAAFB5C123100317E6A248E320CC5E /* FirebaseCore */,
+				717D0045EDFD9B10A8689F2932784FB8 /* FirebaseInstanceID */,
+				C7883542173033A47D1D4A4912A8CEA7 /* GoogleInterchangeUtilities */,
+				5660F5C84D5EFEF5BD0798CDA0862E1C /* GoogleNetworkingUtilities */,
+				27C8C79C32FDD7F6EBD739FE7B7B2A6C /* GoogleSymbolUtilities */,
+				7AC44EB6F5DCE90467197204B0815EA8 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0B5C8CD5EAA015A554428079D37E5055 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				CC179BC25E7DDC29840402FF972DC3D9 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		0D0ED35EEF508278A7A352E7BE4F0175 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A0EE8500180497B7439F5EACFA3335AB /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		27C8C79C32FDD7F6EBD739FE7B7B2A6C /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				AA12101468E90232858AD7BCDC0A2432 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		30167F9B614DCF44B2EF2CEF27B4DC5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57FFB7A2A426F9CF1C35480695F85ED6 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39CB359365643FC0FEF1AA49B7EC8F34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				012DF189A3EA9995E407034BB81134DE /* Pods_purplehawk.framework */,
+				4C19C8A9C6849B4F20B6F49DC92C6807 /* Pods_purplehawkTests.framework */,
+				C9A5AD29D49B56D7EE0D5C8560718884 /* Pods_purplehawkUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4227C0E031E3BEBD3FA473064892AF99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				922180CB8EB7B589A4A398A38665C416 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D9367A691D475BC4C0765A7E92322ED /* Pods-purplehawkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				308A03B36F04F5920161294C1158155C /* Info.plist */,
+				D0AE34A592DABD55C529F7FC2C86B5FB /* Pods-purplehawkUITests.modulemap */,
+				66F32E8EF677730C13EF9163A760C7C9 /* Pods-purplehawkUITests-acknowledgements.markdown */,
+				55E12BC8DA0491F509F72D9201E7DF14 /* Pods-purplehawkUITests-acknowledgements.plist */,
+				FD3414F03E196BE9A4DE54E5FEF16D19 /* Pods-purplehawkUITests-dummy.m */,
+				F5629AD1E54D4923DCDF124E27BCD22D /* Pods-purplehawkUITests-frameworks.sh */,
+				66121181C0ED7AB306331BFC13E543F3 /* Pods-purplehawkUITests-resources.sh */,
+				A432D7C72DA3D69A102DF060A23150B8 /* Pods-purplehawkUITests-umbrella.h */,
+				AC761D3ED2763045FB9F611A492A8096 /* Pods-purplehawkUITests.debug.xcconfig */,
+				B8B2055B47DCC9F271F50A27968E4428 /* Pods-purplehawkUITests.release.xcconfig */,
+			);
+			name = "Pods-purplehawkUITests";
+			path = "Target Support Files/Pods-purplehawkUITests";
+			sourceTree = "<group>";
+		};
+		5660F5C84D5EFEF5BD0798CDA0862E1C /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A7B5185BC0D7E77416725679D1AC76DC /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		574A5F261AC927557B2884F3B7310776 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				B948204849B1A31342353E5D17DFB9FC /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		576F8385BD599676C5F489694CFEBCB5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8286F718FE2387F529F2C4671DD03E86 /* Pods-purplehawk */,
+				893E8A2D4794F9B1423AB120CDD8453F /* Pods-purplehawkTests */,
+				4D9367A691D475BC4C0765A7E92322ED /* Pods-purplehawkUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		717D0045EDFD9B10A8689F2932784FB8 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				42DAAF56D73CD79D6C445AC20A87447C /* FIRInstanceID.h */,
+				C0A7664CD81910F369C52EC0BD34F20A /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		7AC44EB6F5DCE90467197204B0815EA8 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				30167F9B614DCF44B2EF2CEF27B4DC5F /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				02570568BB819F8BDD292616D8B641FE /* Pods */,
+				39CB359365643FC0FEF1AA49B7EC8F34 /* Products */,
+				576F8385BD599676C5F489694CFEBCB5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8286F718FE2387F529F2C4671DD03E86 /* Pods-purplehawk */ = {
+			isa = PBXGroup;
+			children = (
+				6899EFEC3BC81DE6DB5AC18B82C4C340 /* Info.plist */,
+				38C466CC1000F146F747911B2CAE06D4 /* Pods-purplehawk.modulemap */,
+				7C79C078F18DF162DB7331CCB32EE259 /* Pods-purplehawk-acknowledgements.markdown */,
+				20898CDC44C403CC76D29128B53688D4 /* Pods-purplehawk-acknowledgements.plist */,
+				12A1253E18213FAFA90B19A7665A8B41 /* Pods-purplehawk-dummy.m */,
+				F0BCA6D84EA2CE7BEB79D46A8C29B1CD /* Pods-purplehawk-frameworks.sh */,
+				2BD7AE5BF98E2BB8F14CEFDB22B0B76F /* Pods-purplehawk-resources.sh */,
+				9E5137520E902B15A4CA4A9EADFD13DE /* Pods-purplehawk-umbrella.h */,
+				C65AC6867206D8D670F543D02212E86F /* Pods-purplehawk.debug.xcconfig */,
+				12B8C6D35E7FEC85DC2B0B1639DCC473 /* Pods-purplehawk.release.xcconfig */,
+			);
+			name = "Pods-purplehawk";
+			path = "Target Support Files/Pods-purplehawk";
+			sourceTree = "<group>";
+		};
+		893E8A2D4794F9B1423AB120CDD8453F /* Pods-purplehawkTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFD8FB0A37617CAAA7F3BC5C85CC6DDD /* Info.plist */,
+				BBAD61295CBD419A1A16AE580D165ED1 /* Pods-purplehawkTests.modulemap */,
+				3FF5B1267D2FED0BF4075A9CC3FA93AE /* Pods-purplehawkTests-acknowledgements.markdown */,
+				29692F3A8A726414D609560EE464CCA9 /* Pods-purplehawkTests-acknowledgements.plist */,
+				9AD93E8657B092FB0D3225A1E812B6DA /* Pods-purplehawkTests-dummy.m */,
+				AB5DEBAEA445D5D0514C030F858A6213 /* Pods-purplehawkTests-frameworks.sh */,
+				CC04A6457F65586ED77E3ADF5E7B666F /* Pods-purplehawkTests-resources.sh */,
+				C48E7B2CC77B98D009261B290F05DDC0 /* Pods-purplehawkTests-umbrella.h */,
+				4067D81B2120051F3018878F243E427C /* Pods-purplehawkTests.debug.xcconfig */,
+				E4A28016BFA5E91C49A9C11B48B5159E /* Pods-purplehawkTests.release.xcconfig */,
+			);
+			name = "Pods-purplehawkTests";
+			path = "Target Support Files/Pods-purplehawkTests";
+			sourceTree = "<group>";
+		};
+		9FCA6C771CC29962CD2657FBBACC97A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9320616AE8249451F4724C654F06B436 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7B5185BC0D7E77416725679D1AC76DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25262EAC5B98A68F611A2F989C092C09 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA12101468E90232858AD7BCDC0A2432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D53BB78B9FABACE2173BC6E6700A9214 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B948204849B1A31342353E5D17DFB9FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E971A157091A82AF31CD436DEA39CE67 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0A7664CD81910F369C52EC0BD34F20A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D99B43F67DA82E2840606C9D7522BF /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7883542173033A47D1D4A4912A8CEA7 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				4227C0E031E3BEBD3FA473064892AF99 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		CC179BC25E7DDC29840402FF972DC3D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99B278F526324A2D7C60773D0A41C456 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4EAAFB5C123100317E6A248E320CC5E /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA6C771CC29962CD2657FBBACC97A7 /* Frameworks */,
+			);
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		FD6D7BBCD0CA44AC1A13ACE409753DCB /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				0D0ED35EEF508278A7A352E7BE4F0175 /* Core */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46933D00E9FD633E063FBB4CCD63E51C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8069CDF2A8D88A3C6D54ED8C821B76C /* Pods-purplehawkUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E0BFD26A0BF811EE7CFC8A07F56F1B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F712CE56C37FB9D24C16C56B215D996 /* Pods-purplehawkTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEE1CEBB0C11C01BAAC2B845319F293 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAAC01927BE102A95FE2312FE3796FF /* Pods-purplehawk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F1853A9A34211F727AE9819AFD7158E /* Pods-purplehawkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF5BBC76C8F128B18E54B0FF217DD5A /* Build configuration list for PBXNativeTarget "Pods-purplehawkTests" */;
+			buildPhases = (
+				8D743362DFE10A0A5BA7207E47DA89DC /* Sources */,
+				07678E2D7F2C6082E4DCE947A3595393 /* Frameworks */,
+				9E0BFD26A0BF811EE7CFC8A07F56F1B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-purplehawkTests";
+			productName = "Pods-purplehawkTests";
+			productReference = 4C19C8A9C6849B4F20B6F49DC92C6807 /* Pods_purplehawkTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F49F8BCB94ED1F75F729330D6700294 /* Pods-purplehawk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E276A5907B2AD933EBE732E0547327 /* Build configuration list for PBXNativeTarget "Pods-purplehawk" */;
+			buildPhases = (
+				7E266A21C998F3DE32CF9D4FC8C14849 /* Sources */,
+				FC1CE0A10BBD73C2D49C14DC1EDF7022 /* Frameworks */,
+				DEEE1CEBB0C11C01BAAC2B845319F293 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-purplehawk";
+			productName = "Pods-purplehawk";
+			productReference = 012DF189A3EA9995E407034BB81134DE /* Pods_purplehawk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6631B1DE48AE65976A8E4028BAC3AEFE /* Pods-purplehawkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C060CBD4F19D2D6144B6276626B0CBE /* Build configuration list for PBXNativeTarget "Pods-purplehawkUITests" */;
+			buildPhases = (
+				52CA2D0CDE73C1C22C79A61996666744 /* Sources */,
+				2342BB232C7639DC6C5BE5BCE2194CDB /* Frameworks */,
+				46933D00E9FD633E063FBB4CCD63E51C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-purplehawkUITests";
+			productName = "Pods-purplehawkUITests";
+			productReference = C9A5AD29D49B56D7EE0D5C8560718884 /* Pods_purplehawkUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 39CB359365643FC0FEF1AA49B7EC8F34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F49F8BCB94ED1F75F729330D6700294 /* Pods-purplehawk */,
+				3F1853A9A34211F727AE9819AFD7158E /* Pods-purplehawkTests */,
+				6631B1DE48AE65976A8E4028BAC3AEFE /* Pods-purplehawkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52CA2D0CDE73C1C22C79A61996666744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC3614F527427B4533897D86116DCA7 /* Pods-purplehawkUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E266A21C998F3DE32CF9D4FC8C14849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DFF5300E3F3118E13B20664324A56A /* Pods-purplehawk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D743362DFE10A0A5BA7207E47DA89DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A673FE8C0B00215CA751A07CCD9E7199 /* Pods-purplehawkTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15DEE986E7EAF003D594213CD35A04B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A28016BFA5E91C49A9C11B48B5159E /* Pods-purplehawkTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-purplehawkTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-purplehawkTests/Pods-purplehawkTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_purplehawkTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6BA3C0ACA3805C3D3C7BDC771591FDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4067D81B2120051F3018878F243E427C /* Pods-purplehawkTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-purplehawkTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-purplehawkTests/Pods-purplehawkTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_purplehawkTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90B3E26AE27FAB6734A18011EE1BAF76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B2055B47DCC9F271F50A27968E4428 /* Pods-purplehawkUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-purplehawkUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-purplehawkUITests/Pods-purplehawkUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_purplehawkUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA06116B3449CD79C61D5B7F3B2A54A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC761D3ED2763045FB9F611A492A8096 /* Pods-purplehawkUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-purplehawkUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-purplehawkUITests/Pods-purplehawkUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_purplehawkUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C05D3753F6BCDAA8EF77D33158A67BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65AC6867206D8D670F543D02212E86F /* Pods-purplehawk.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-purplehawk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-purplehawk/Pods-purplehawk.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_purplehawk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB1AEFCE74A47FFF402DAFF500707113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B8C6D35E7FEC85DC2B0B1639DCC473 /* Pods-purplehawk.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-purplehawk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-purplehawk/Pods-purplehawk.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_purplehawk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C060CBD4F19D2D6144B6276626B0CBE /* Build configuration list for PBXNativeTarget "Pods-purplehawkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA06116B3449CD79C61D5B7F3B2A54A5 /* Debug */,
+				90B3E26AE27FAB6734A18011EE1BAF76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF5BBC76C8F128B18E54B0FF217DD5A /* Build configuration list for PBXNativeTarget "Pods-purplehawkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA3C0ACA3805C3D3C7BDC771591FDB5 /* Debug */,
+				15DEE986E7EAF003D594213CD35A04B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E276A5907B2AD933EBE732E0547327 /* Build configuration list for PBXNativeTarget "Pods-purplehawk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05D3753F6BCDAA8EF77D33158A67BC9 /* Debug */,
+				FB1AEFCE74A47FFF402DAFF500707113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
