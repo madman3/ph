@@ -226,12 +226,20 @@
                                     <action selector="CreateAccountBtn:" destination="joF-cD-Kid" eventType="touchUpInside" id="BUu-gw-eYR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHB-hc-FJd">
+                                <frame key="frameInset" minX="7" minY="580" width="361" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="email_enter" destination="zBJ-qk-bwa" id="S40-bT-VSc"/>
                         <outlet property="pass_enter" destination="THA-pw-Lmo" id="CiU-Em-giN"/>
+                        <outlet property="signup_status" destination="uHB-hc-FJd" id="Dis-cn-Th2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2e9-wR-6YV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -262,7 +270,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="C4M-nh-XYi" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="MkP-ps-z1n">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MkP-ps-z1n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
