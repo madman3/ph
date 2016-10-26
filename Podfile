@@ -8,6 +8,7 @@ target 'purplehawk' do
   # Pods for purplehawk
   pod 'Firebase'
   pod 'Firebase/Auth'
+  pod 'Firebase/Database'
   
   target 'purplehawkTests' do
     inherit! :search_paths
