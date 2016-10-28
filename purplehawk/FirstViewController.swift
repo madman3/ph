@@ -24,10 +24,10 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func gotosmbtn(sender: AnyObject) {
-        phlogo.hidden = false
-        bgph.hidden = false
-        signupbtn.hidden = true
+    @IBAction func gotosmbtn(_ sender: AnyObject) {
+        phlogo.isHidden = false
+        bgph.isHidden = false
+        signupbtn.isHidden = true
     }
     
     //Just trying to test git

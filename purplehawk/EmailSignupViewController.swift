@@ -25,9 +25,9 @@ class EmailSignupViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func CreateAccountBtn(sender: AnyObject) {
+    @IBAction func CreateAccountBtn(_ sender: AnyObject) {
         
-        FIRAuth.auth()?.createUserWithEmail(email_enter.text!, password: pass_enter.text!, completion: { user, error in
+        FIRAuth.auth()?.createUser(withEmail: email_enter.text!, password: pass_enter.text!, completion: { user, error in
             
             if error != nil{
                 
@@ -48,7 +48,7 @@ class EmailSignupViewController: UIViewController {
     
     func login(){
         
-        FIRAuth.auth()?.signInWithEmail(email_enter.text!, password: pass_enter.text!, completion: {
+        FIRAuth.auth()?.signIn(withEmail: email_enter.text!, password: pass_enter.text!, completion: {
             user, error in
             
             if error != nil {

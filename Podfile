@@ -6,12 +6,13 @@ target 'purplehawk' do
   use_frameworks!
 
   # Pods for purplehawk
-  pod 'Firebase'
+  
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   
   target 'purplehawkTests' do
     inherit! :search_paths
+    pod 'Firebase'
     # Pods for testing
   end
 
