@@ -166,7 +166,7 @@
 		6D82459F1D528D270081D44C /* purplehawk */ = {
 			isa = PBXGroup;
 			children = (
-				7FBA28811DC4206A008E5BFE /* purplehawk.entitlements */,
+				7FBA28821DC42325008E5BFE /* Entitlements */,
 				7FBA286B1DBEA27F008E5BFE /* Views */,
 				7FBA286A1DBEA275008E5BFE /* Controllers */,
 				7F6A84E91DBE8527003E7A82 /* GoogleService-Info.plist */,
@@ -246,6 +246,14 @@
 				6D8245A61D528D270081D44C /* Main.storyboard */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		7FBA28821DC42325008E5BFE /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+				7FBA28811DC4206A008E5BFE /* purplehawk.entitlements */,
+			);
+			name = Entitlements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
