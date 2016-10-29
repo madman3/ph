@@ -92,6 +92,7 @@
 		7FBA28721DBF907A008E5BFE /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		7FBA28741DBF90B7008E5BFE /* SignupBtnsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupBtnsViewController.swift; sourceTree = "<group>"; };
 		7FBA28761DBF90D5008E5BFE /* EmailSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailSignupViewController.swift; sourceTree = "<group>"; };
+		7FBA28811DC4206A008E5BFE /* purplehawk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = purplehawk.entitlements; sourceTree = "<group>"; };
 		83DCA2BB60CD5FC12FE52361 /* Pods-purplehawkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-purplehawkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-purplehawkTests/Pods-purplehawkTests.release.xcconfig"; sourceTree = "<group>"; };
 		90ACEAD730C6FD0B71A6336A /* Pods-purplehawk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-purplehawk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-purplehawk/Pods-purplehawk.debug.xcconfig"; sourceTree = "<group>"; };
 		A03168CA6CC35F6F69DAF80F /* Pods_purplehawkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_purplehawkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +166,7 @@
 		6D82459F1D528D270081D44C /* purplehawk */ = {
 			isa = PBXGroup;
 			children = (
+				7FBA28811DC4206A008E5BFE /* purplehawk.entitlements */,
 				7FBA286B1DBEA27F008E5BFE /* Views */,
 				7FBA286A1DBEA275008E5BFE /* Controllers */,
 				7F6A84E91DBE8527003E7A82 /* GoogleService-Info.plist */,
@@ -299,6 +301,7 @@
 				6D8245BB1D528D270081D44C /* Frameworks */,
 				6D8245BC1D528D270081D44C /* Resources */,
 				7E55215C2E1553E661D17119 /* [CP] Copy Pods Resources */,
+				E87E2AD1EC08E4B5B0134CFB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,7 +325,13 @@
 				TargetAttributes = {
 					6D82459C1D528D270081D44C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = N9625A3646;
 						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					6D8245B21D528D270081D44C = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -471,7 +480,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		CF99D053413C16F16993D580 /* [CP] Copy Pods Resources */ = {
@@ -501,7 +510,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E87E2AD1EC08E4B5B0134CFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-purplehawkUITests/Pods-purplehawkUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E8C7FDA0A2AE7E86F0FCE9C1 /* [CP] Check Pods Manifest.lock */ = {
@@ -516,7 +540,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -606,7 +630,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -681,6 +705,8 @@
 			baseConfigurationReference = 90ACEAD730C6FD0B71A6336A /* Pods-purplehawk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = purplehawk/purplehawk.entitlements;
+				DEVELOPMENT_TEAM = N9625A3646;
 				INFOPLIST_FILE = purplehawk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.purplehawk.purplehawk;
@@ -694,6 +720,8 @@
 			baseConfigurationReference = 40B70897DAA3DA3E3BA7473B /* Pods-purplehawk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = purplehawk/purplehawk.entitlements;
+				DEVELOPMENT_TEAM = N9625A3646;
 				INFOPLIST_FILE = purplehawk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.purplehawk.purplehawk;
