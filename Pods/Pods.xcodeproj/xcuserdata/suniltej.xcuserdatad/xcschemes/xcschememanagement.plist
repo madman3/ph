@@ -4,6 +4,41 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSDKCoreKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSDKLoginKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSDKShareKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FacebookCore.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FacebookLogin.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FacebookShare.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-purplehawk.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,57 +57,52 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1A66BF1B64B4A05A37AAD2CDA34D8B6A</key>
+		<key>32A47DBCF8E04CBEF152E6729EB3624E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>31418D425B97E292FFAFC566D79FC144</key>
+		<key>332F91393FB1DE033D370B4CEDDD5FCF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3F1853A9A34211F727AE9819AFD7158E</key>
+		<key>44CAD6CE523055ED339E87154473A254</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4F49F8BCB94ED1F75F729330D6700294</key>
+		<key>593E9479C06FB200807D11AB29EB50BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>533607A808BC64912197562E016B6085</key>
+		<key>5B5AC3C06B783F8674FDB4C0F900B56A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5A0A28913A1212C2D1EACECBA1E58AC0</key>
+		<key>7335E9C9689F3B8A16F063A884748533</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6631B1DE48AE65976A8E4028BAC3AEFE</key>
+		<key>768783FA2806BB84A45C8C0DFB94F209</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8329B4DD82B7A073B34A61C9527865D0</key>
+		<key>A7FEAA14E89971698ACA148F7F7202F2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9D0F2E5EA1B46A5D72FFD42B0B39DBBC</key>
+		<key>AE825FF111BB695F634E35D046A00E85</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A8F77DC39F7D0CFE46DAA5C135D96A80</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DD707E469C8D0BEA816D740155A3B629</key>
+		<key>DDBCFDE490CDFDABF6F16A26F346932D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

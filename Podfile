@@ -9,6 +9,10 @@ target 'purplehawk' do
   
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+  pod 'Bolts'
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  pod 'FacebookShare'
   
   target 'purplehawkTests' do
     inherit! :search_paths
