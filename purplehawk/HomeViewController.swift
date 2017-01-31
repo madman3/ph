@@ -7,8 +7,27 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import FirebaseAuth
 
 class HomeViewController: UIViewController {
+    
+    
+    @IBAction func didTapLogout(_ sender: UIButton) {
+        
+        //sign the user out of the firebase app
+        try! FIRAuth.auth()!.signOut()
+        
+        //sign the user out of facebook app
+        FBSDKAccessToken.setCurrent(nil)
+        
+        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController: UIViewController = mainStoryboard.instantiateViewController(withIdentifier: "SignupIllustration")
+        
+        self.present(viewController, animated: true, completion: nil)
+        
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

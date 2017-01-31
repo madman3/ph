@@ -16,6 +16,8 @@ class SignupBtnsViewController: UIViewController, FBSDKLoginButtonDelegate {
     //Initialising the fb button
     let fbLoginBtn = FBSDKLoginButton()
     
+    @IBOutlet weak var aivLoadingSpinner: UIActivityIndicatorView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        
@@ -62,19 +64,24 @@ class SignupBtnsViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
         
+        //Logging the user in on
         print("User clicked on login")
         
         self.fbLoginBtn.isHidden = true
         
+        aivLoadingSpinner.startAnimating()
+        
         if error != nil {
             print(error)
             self.fbLoginBtn.isHidden = false
+            aivLoadingSpinner.stopAnimating()
             return
         }
         else if(result.isCancelled)
         {
             //handle the cancel event on fb page
             self.fbLoginBtn.isHidden = false
+            aivLoadingSpinner.stopAnimating()
         }
         else{
         let credential = FIRFacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)

@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -88,7 +87,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="83" y="313" width="210" height="42"/>
+                                <rect key="frame" x="82.5" y="312.5" width="210" height="42"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -165,27 +164,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="account_inactive" translatesAutoresizingMaskIntoConstraints="NO" id="gDh-8d-Vyt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account_inactive" translatesAutoresizingMaskIntoConstraints="NO" id="gDh-8d-Vyt">
                                 <rect key="frame" x="16" y="14" width="26" height="30"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="likes_inactive" translatesAutoresizingMaskIntoConstraints="NO" id="Bng-aA-ukt">
-                                <rect key="frame" x="327" y="17" width="32" height="27"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Group_switch" translatesAutoresizingMaskIntoConstraints="NO" id="QVs-2y-Rhz">
-                                <rect key="frame" x="131" y="13" width="115" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="QVs-2y-Rhz" secondAttribute="height" multiplier="115:34" id="xJh-dj-clD"/>
+                                    <constraint firstAttribute="width" constant="26" id="Mup-go-SvC"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="likes_inactive" translatesAutoresizingMaskIntoConstraints="NO" id="Bng-aA-ukt">
+                                <rect key="frame" x="327" y="17" width="32" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="Sch-4d-PLB"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Group_switch" translatesAutoresizingMaskIntoConstraints="NO" id="QVs-2y-Rhz">
+                                <rect key="frame" x="134" y="17" width="106" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="08I-iM-gww"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ink-pq-7zU">
+                                <rect key="frame" x="160" y="318" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Log Out"/>
+                                <connections>
+                                    <action selector="didTapLogout:" destination="o5A-9o-mMJ" eventType="touchUpInside" id="RqS-RB-NB2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gDh-8d-Vyt" firstAttribute="leading" secondItem="5rI-1G-Sni" secondAttribute="leadingMargin" constant="5" id="78x-W6-esN"/>
-                            <constraint firstItem="QVs-2y-Rhz" firstAttribute="leading" secondItem="gDh-8d-Vyt" secondAttribute="trailing" constant="89" id="O8V-Xp-oJr"/>
-                            <constraint firstItem="gDh-8d-Vyt" firstAttribute="top" secondItem="5rI-1G-Sni" secondAttribute="topMargin" constant="5" id="SBm-j2-O4H"/>
-                            <constraint firstItem="Bng-aA-ukt" firstAttribute="trailing" secondItem="5rI-1G-Sni" secondAttribute="trailingMargin" constant="5" id="Yhn-Ce-fjc"/>
-                            <constraint firstItem="QVs-2y-Rhz" firstAttribute="top" secondItem="5rI-1G-Sni" secondAttribute="top" constant="5" id="ZgF-kc-Joi"/>
-                            <constraint firstItem="Bng-aA-ukt" firstAttribute="top" secondItem="5rI-1G-Sni" secondAttribute="top" constant="5" id="jT9-pK-Qe2"/>
+                            <constraint firstItem="gDh-8d-Vyt" firstAttribute="top" secondItem="5rI-1G-Sni" secondAttribute="topMargin" constant="14" id="15g-zl-aou"/>
+                            <constraint firstItem="UWb-z2-nBX" firstAttribute="top" secondItem="gDh-8d-Vyt" secondAttribute="bottom" constant="623" id="2qX-Vf-Fid"/>
+                            <constraint firstItem="UWb-z2-nBX" firstAttribute="top" secondItem="QVs-2y-Rhz" secondAttribute="bottom" constant="627" id="GZl-28-xK6"/>
+                            <constraint firstItem="QVs-2y-Rhz" firstAttribute="centerX" secondItem="5rI-1G-Sni" secondAttribute="centerX" id="Nbe-uw-DRB"/>
+                            <constraint firstItem="gDh-8d-Vyt" firstAttribute="bottom" secondItem="Bng-aA-ukt" secondAttribute="bottom" id="PdL-wp-UmH"/>
+                            <constraint firstItem="QVs-2y-Rhz" firstAttribute="top" secondItem="aI8-2T-T7M" secondAttribute="bottom" constant="1" id="XnV-zf-P0c"/>
+                            <constraint firstItem="gDh-8d-Vyt" firstAttribute="leading" secondItem="5rI-1G-Sni" secondAttribute="leadingMargin" id="aLH-CX-xwf"/>
+                            <constraint firstItem="Bng-aA-ukt" firstAttribute="trailing" secondItem="5rI-1G-Sni" secondAttribute="trailingMargin" id="sfm-sX-B3F"/>
+                            <constraint firstItem="QVs-2y-Rhz" firstAttribute="centerY" secondItem="Bng-aA-ukt" secondAttribute="centerY" id="v2C-jI-lYz"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -213,24 +229,27 @@
                                     <segue destination="joF-cD-Kid" kind="show" id="Gjn-Kc-d2K"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvA-R8-rjd">
-                                <rect key="frame" x="21" y="369" width="389" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="facebook_button.png"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3N-8P-dNS">
-                                <rect key="frame" x="21" y="270" width="389" height="50"/>
+                                <rect key="frame" x="21" y="344" width="389" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="foursquare_button.png"/>
                             </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="BJT-Vq-PEo">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="QjC-os-W9O"/>
+                    <connections>
+                        <outlet property="aivLoadingSpinner" destination="BJT-Vq-PEo" id="67t-ap-YaQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9KT-ut-SOV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="1528.785607196402"/>
+            <point key="canvasLocation" x="-84" y="1529"/>
         </scene>
         <!--email signup-->
         <scene sceneID="mUf-a3-OYF">
@@ -329,7 +348,6 @@
         <image name="JoLee" width="640" height="427"/>
         <image name="account_inactive" width="33" height="38"/>
         <image name="email_button.png" width="335" height="50"/>
-        <image name="facebook_button.png" width="335" height="50"/>
         <image name="first" width="30" height="30"/>
         <image name="foursquare_button.png" width="335" height="50"/>
         <image name="likes_inactive" width="45" height="38"/>
